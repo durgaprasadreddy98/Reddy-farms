@@ -24,7 +24,7 @@ jobs:
       - name: Extract project
         run: |
           mkdir project
-          unzip -o REDDY_FARMS_Phone_Build_Project_v26.zip -d project
+          unzip -o REDDY_FARMS_Phone_Build_Project_v27.zip -d project
 
       - name: Build APK
         run: gradle -p project assembleDebug
